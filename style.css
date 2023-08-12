@@ -20,31 +20,40 @@ body {
   grid-template-rows: 414px 130px 155px 22px;
   gap: 9px;
 }
+
 .item {
   background-color: #F0F1EC;
 }
-.red{
+
+.red {
   background-color: #E72F24;
 }
-.white1{
+
+.white1 {
   grid-column: span 3;
 }
-.white2{
+
+.white2 {
   grid-row: span 2;
 }
+
 .white3 {
   grid-area: 2/2/4/4;
 }
-.blue{
+
+.blue {
   background-color: #004592;
   border-bottom: 10px solid #000;
 }
-.yellow{
+
+.yellow {
   background-color: #F9D01E;
 }
-.black{
+
+.black {
   background-color: #232629;
 }
-.white4{
+
+.white4 {
   grid-row: span 2;
 }
